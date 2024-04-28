@@ -19,6 +19,7 @@
     "scripts": {
         "start": "bun run src/index.ts",
         "dev": "bun --watch src/index.ts",
+        "test": "bun test ./src/*.ts",
         "format": "prettier --write src/**/*.ts",
         "check": "prettier --check src/**/*.ts && eslint ./src/**/*.ts"
     }
